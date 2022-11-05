@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Cormorant+Garamond:wght@300;400&family=Montserrat&family=Poppins:ital,wght@0,400;1,300&display=swap');
+
+.home-container{
+  background: #D9D1E2;
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  font-family: 'Poppins', sans-serif;
+}
+p {
+  text-align: center;
+  font-size: 1rem;
+  color: black;
+}
+.main-header {
+  font-size: 2rem;
+  color: #40196D;
+  font-weight: bolder;
+}
+
+.text {
+  font-size: 1.1rem;
+}
+
+.btn {
+  margin-top: 1.5rem;
+  padding: 1rem 2rem;
+  background: #40196D;
+  border: none;
+  border-radius: 12px;
+  color: white;
+}
+.nav-link {
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+}
+.btn:hover, .nav-link:hover {
+  border: 1px solid  #40196D;
+  background: #D9D1E2;
+  color: #40196D;
+}
+.nav-link:hover {
+  border: none;
+}

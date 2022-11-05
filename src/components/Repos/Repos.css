@@ -1,0 +1,36 @@
+.repo-container {
+  display: grid;
+  padding: 1rem;
+}
+.repo {
+display: grid;
+grid-template-columns: 1fr;
+justify-content: center;
+margin: 0 auto;
+}
+.pagination-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.pagination-container ul {
+  display: flex;
+}
+.li-paginate {
+  padding:0.2rem;
+  background-color: grey;
+}
+.li-paginate{
+  list-style: none;
+  padding: 1rem;
+  margin-right: 0.2rem;
+}
+
+
+@media only screen and (min-width: 960px){
+  .repo{
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+  }
+} 
+

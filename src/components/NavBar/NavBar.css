@@ -1,0 +1,28 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  max-width: 1000px;
+  width: 100%;
+  font-size: 1.3rem;
+  color: #40196D;
+}
+.nav-left .logo{
+  color: #40196D;
+  font-weight: bolder;
+}
+.nav-right {
+  display: flex;
+  font-weight: bolder;
+}
+.nav {
+  display: block;
+  margin-right: 1rem;
+  color: #40196D;
+}
+.nav:hover, nav:active, .logo:hover {
+  border-bottom: 2px solid #D9D1E2;
+  color: #40196D;
+}

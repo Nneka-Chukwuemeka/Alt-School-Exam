@@ -1,0 +1,31 @@
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+  align-items: center;
+  height: 90vh;
+}
+ #wrap {
+  width: 80%;
+}
+/*
+.image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+#imag, #photo{
+  border-radius: 50%;
+  max-width: 50%;
+}
+#contents {
+border: .5px solid #40196D;
+} */
+
+@media only screen and (min-width: 960px){
+  #wrap {
+    flex-direction: row;
+    width: 80%;
+  }
+}
