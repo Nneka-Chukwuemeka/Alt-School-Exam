@@ -19,7 +19,7 @@ function Repos() {
   // a function to get url 
 
   const getRepos = async () => {
-    if (repo === []) {
+    if (repo == []) {
       setLoading(true)
     }
     let url = 'https://api.github.com/users/Nneka-Chukwuemeka/repos?per_page=58';
@@ -61,7 +61,7 @@ function Repos() {
     return (
       <>
         <RepoPage data={currentRepo} loading={loading} />
-        <Pagination postPerRepo={repoPerPage} totalRepo={repo.length} paginate={paginate}/>
+        <Pagination postPerRepo={repoPerPage} totalRepo={repo.length} paginate={paginate} />
       </>
     )
   }

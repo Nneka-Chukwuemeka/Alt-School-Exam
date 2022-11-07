@@ -30,11 +30,11 @@ function Portfolio() {
         <Spinner />
       )
     }
-    if (data !== []) {
-      return (
-        <PortfolioRender message={data} />
-      )
-    }
+
+    return (
+      <PortfolioRender message={data} />
+    )
+
   }
   return (
     <div className="portfolio-container">

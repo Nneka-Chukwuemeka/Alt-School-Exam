@@ -26,6 +26,11 @@ margin: 0 auto;
   margin-right: 0.2rem;
 }
 
+#learn {
+display: flex;
+justify-content: center;
+align-items: center;
+}
 
 @media only screen and (min-width: 960px){
   .repo{
