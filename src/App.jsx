@@ -21,6 +21,7 @@ function App() {
         <Route path='/Repos'>
           <Route index element={<Repos />} />
           <Route path=':id' element={<LearnMore />} />
+          <Route path=":*" element={<NotFound />} />
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>

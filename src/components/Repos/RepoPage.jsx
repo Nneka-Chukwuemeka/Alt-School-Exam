@@ -3,9 +3,9 @@ import './Repos.css'
 import Spinner from '../Spinner/Spinner'
 import { useNavigate } from 'react-router-dom'
 
+
 const RepoPage = (props) => {
 
-  console.log(props.data)
   const navigate = useNavigate();
 
 
@@ -29,9 +29,6 @@ const RepoPage = (props) => {
   })
 
   const renderComponent = () => {
-    if (props.loading) {
-      return <Spinner />
-    }
     return (
       <>
         {repo}
