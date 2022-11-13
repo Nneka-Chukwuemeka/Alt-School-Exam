@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import Spinner from '../Spinner/Spinner';
 import RepoPage from './RepoPage'
 import Pagination from './Pagination'
+import { Helmet } from 'react-helmet-async'
 
 
 
@@ -68,6 +69,11 @@ function Repos() {
 
   return (
     <div className='repo-container'>
+      <Helmet>
+        <title> Repositries </title>
+        <meta name='description' content='Different repositries from Nneka Chukwuemeka Profile' />
+        <link rel='canonical' href='/Repos' />
+      </Helmet>
       {renderComponent()}
     </div>
   )

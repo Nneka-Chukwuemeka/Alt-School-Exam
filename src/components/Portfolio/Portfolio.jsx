@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import PortfolioRender from './PortfolioRender'
 import Spinner from '../Spinner/Spinner'
 import './Portfolio.css'
+import { Helmet } from 'react-helmet-async'
 
 
 
@@ -38,6 +39,11 @@ function Portfolio() {
   }
   return (
     <div className="portfolio-container">
+      <Helmet>
+        <title>Portfolio</title>
+        <meta name='description' content='Nneka GitHub main Profile' />
+        <link rel='canonical' href='/PortFolio' />
+      </Helmet>
       {renderComponents()}
     </div>
   )
